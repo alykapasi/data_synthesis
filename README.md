@@ -1,2 +1,1 @@
-# data_synthesis
-Simple Primer on Data Synthesis / Generation.
+# A Gentle Introduction to Data Synthesis and Generation Architectures
