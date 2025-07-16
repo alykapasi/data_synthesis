@@ -134,7 +134,7 @@ Autoencoders are a class of unsupervised neural networks trained to reconstruct 
 
 The model is trained to minimize a reconstruction loss, typically:
 
-$\mathcal{L}_{\text{AE}} = \| x - \hat{x} \|^2$
+$ \mathcal{L}_{\text{AE}} = \| x - \hat{x} \|^2$
 
 This encourages the encoder-decoder pair to compress and decompress the signal in a way that preserves its important features.
 
