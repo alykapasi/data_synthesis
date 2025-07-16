@@ -200,9 +200,7 @@ The decoder then generates the reconstructed signal from the sampled latent code
 
 VAEs are trained by optimizing the **evidence lower bound (ELBO)**:
 
-$$
-\mathcal{L}_{\text{VAE}} = \mathbb{E}_{q_\theta(z|x)}[\log p_\phi(x|z)] - D_{\text{KL}}(q_\theta(z|x) \| p(z))
-$$
+<pre> ``` L_VAE = E_{q_theta(z|x)}[ log p_phi(x|z) ] - D_KL( q_theta(z|x) || p(z) ) ``` </pre>
 
 * The first term is a reconstruction loss (similar to traditional AEs).
 * The second term is the KL divergence, which regularizes the latent space to be close to a standard normal distribution.
